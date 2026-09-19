@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+  <body style="margin:0;padding:24px;background:#f1f5f9;font-family:Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#0f172a;">
+    <table role="presentation" cellpadding="0" cellspacing="0" style="max-width:480px;margin:0 auto;background:#ffffff;border-radius:14px;padding:32px;">
+      <tr>
+        <td>
+          <p style="margin:0 0 18px;font-size:15px;">Hola {{ nombre }}:</p>
+          <p style="margin:0 0 24px;font-size:15px;line-height:1.5;">
+            Recibimos una solicitud para restablecer la contraseña de tu cuenta.
+            Tu código de verificación es:
+          </p>
+          <p style="margin:0 0 24px;text-align:center;font-size:34px;font-weight:700;letter-spacing:10px;color:#1e3a8a;background:#eff6ff;border-radius:10px;padding:18px 0;">
+            {{ codigo }}
+          </p>
+          <p style="margin:0 0 18px;font-size:15px;line-height:1.5;">
+            Escríbelo en la aplicación junto con tu nueva contraseña. El código
+            caduca en <strong>{{ minutos }} minutos</strong> y solo puede usarse una vez.
+          </p>
+          <p style="margin:0;font-size:13px;line-height:1.5;color:#64748b;">
+            Si no has pedido tú este cambio, ignora este mensaje: tu contraseña
+            actual sigue siendo válida y nadie puede cambiarla sin este código.
+          </p>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

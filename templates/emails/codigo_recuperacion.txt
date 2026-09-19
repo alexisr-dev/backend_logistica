@@ -1,0 +1,16 @@
+Hola {{ nombre }}:
+
+Recibimos una solicitud para restablecer la contraseña de tu cuenta.
+
+Tu código de verificación es:
+
+    {{ codigo }}
+
+Escríbelo en la aplicación junto con tu nueva contraseña. El código caduca en
+{{ minutos }} minutos y solo puede usarse una vez.
+
+Si no has pedido tú este cambio, ignora este mensaje: tu contraseña actual sigue
+siendo válida y nadie puede cambiarla sin este código.
+
+--
+Sistema de Logística y Envíos
