@@ -1,0 +1,10 @@
+.env
+.env.example
+.git
+.github
+venv/
+docker-compose.yml
+__pycache__/
+*.pyc
+*.sqlite3
+.pytest_cache/
